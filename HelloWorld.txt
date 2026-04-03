@@ -8,3 +8,5 @@ Demo on New Branch
 
 
 Demo Mergeing With Branch 1
+
+Demo on Merging by Branch 2
