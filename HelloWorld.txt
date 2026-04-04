@@ -15,4 +15,6 @@ Sanjay_R Demo on Merging by Branch 2
 
 Chandra_A Demo Merging With Branch 1
 
-Vignesh Demo merging with branch 1
+Swamy_b Demo merging with Branch 2
+
+Vignesh using Merge command
