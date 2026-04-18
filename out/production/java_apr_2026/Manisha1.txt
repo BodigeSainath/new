@@ -1,0 +1,9 @@
+public class Hello {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+
+C:\Users\manis\Downloads\jdk-21_windows-x64_bin.zip\jdk-21.0.10\bin
