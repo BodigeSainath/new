@@ -1,0 +1,13 @@
+<script>
+    let string= "entertainment";
+    let finalobj={};
+    for (ch of string)
+{ 
+    if(finalobj[ch]){
+        finalobj[ch]++;
+    }else{
+        finalobj[ch]=1;
+    }
+}
+console.log(finalobj);
+</script>
