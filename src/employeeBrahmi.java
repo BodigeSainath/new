@@ -6,9 +6,9 @@ public class employeeBrahmi {
     String email;
 
     public void eat(){
-        System.out.print("eating");
+        System.out.println("eating");
     }
    public void sleep(){
-        System.out.print("sleeping");
+        System.out.println("sleeping");
 }
 }

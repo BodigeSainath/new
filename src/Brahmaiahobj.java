@@ -8,10 +8,18 @@ public class Brahmaiahobj {
         b.age = 25;
         b.email = "employeeravi@gmail.com";
 
-
         b.eat();
-
         b.sleep();
+
+        System.out.println();
+        Players p = new Players();
+        p.name = "Puli";
+        p.runs= 59;
+
+        p.runs();
+
+        p.name();
+
 
     }
 }
