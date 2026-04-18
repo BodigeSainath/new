@@ -1,0 +1,13 @@
+<script>
+    let stringq="abcxyz";
+    let result="";
+    for(ch of stringq){
+        if(ch=="z"){
+            result+="a";
+        }
+        else{
+            result+=String.fromCharCode(ch.charCodeAt(0)+1);
+        }
+    }
+    console.log(result);
+</script>
