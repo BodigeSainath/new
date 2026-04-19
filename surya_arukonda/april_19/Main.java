@@ -34,5 +34,48 @@ public class Main {
         System.out.println(demo.trimText());
         System.out.println(demo.getDateValue());
         System.out.println(demo.getCurrentTimeMillisValue());
+
+        PrintOneToTen printOneToTen = new PrintOneToTen();
+        printOneToTen.printNumbers();
+        System.out.println();
+
+        PrintOddNumbers printOddNumbers = new PrintOddNumbers();
+        printOddNumbers.printOddNumbers();
+        System.out.println();
+
+        TableOfSeven tableOfSeven = new TableOfSeven();
+        tableOfSeven.printTable();
+        System.out.println();
+
+        TablesOneToTen tablesOneToTen = new TablesOneToTen();
+        tablesOneToTen.printTables();
+
+        CelsiusToFahrenheit celsiusToFahrenheit = new CelsiusToFahrenheit();
+        System.out.println(celsiusToFahrenheit.convert(25));
+        System.out.println();
+
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        SumOfArray sumOfArray = new SumOfArray();
+        System.out.println(sumOfArray.findSum(numbers));
+
+        AverageOfArray averageOfArray = new AverageOfArray();
+        System.out.println(averageOfArray.findAverage(numbers));
+
+        ReverseString reverseString = new ReverseString();
+        System.out.println(reverseString.reverse("java"));
+
+        PalindromeCheck palindromeCheck = new PalindromeCheck();
+        System.out.println(palindromeCheck.isPalindrome("madam"));
+
+        FirstNonRepeatedCharacter firstNonRepeatedCharacter = new FirstNonRepeatedCharacter();
+        System.out.println(firstNonRepeatedCharacter.findFirstNonRepeated("swiss"));
+
+        AnagramCheck anagramCheck = new AnagramCheck();
+        System.out.println(anagramCheck.areAnagrams("listen", "silent"));
+
+        VowelCount vowelCount = new VowelCount();
+        System.out.println(vowelCount.countVowels("Hello World"));
+
     }
 }
