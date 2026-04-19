@@ -1,43 +1,32 @@
-<<<<<<< Main.java
-package org.example;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args){
+            int i= 0;
+            for(i=0; i<5;i++){
+                System.out.println("Wassup");
+            }
+        int n = 10;
+            int firstNumber =0;
+            int secondNumber=1;
+            int nextNumber;
+            for(i=1;i<n;i++){
+                System.out.println(firstNumber);
+                nextNumber = firstNumber +secondNumber;
+                firstNumber= secondNumber;
+                secondNumber= nextNumber;
 
-        Student s1 = new Student("Pawan", 25, 3.9);
-        Student s2 = new Student("John",  22, 1.8);
-        Student s3 = new Student("Sara",  23, 3.5);
+            }
 
-        s1.displayInfo();
-        s2.displayInfo();
-        s3.displayInfo();
+            int k=0;
+            int l=1;
+            int m;
+            while(k<10){
+                System.out.println(k);
+                m=k+l;
+                k= l;
+                l= m;
+            }
 
-        System.out.println(s1.name + " passing: " + s1.isPassing()); // true
-        System.out.println(s2.name + " passing: " + s2.isPassing()); // false
+        }
     }
-}
 
-=========== //pawan resloved the conflict
-public class Main {
-    public static void main(String[] args) {
 
-        Student s1 = new Student();
-        s1.FullName = "Sanjay Kumar";
-        s1.Age = 25;
-        s1.DateOfBirth = "01-01-2000";
-
-        s1.Run();
-        s1.Drink();
-
-        Student s2 = new Student();
-        s2.FullName = "Ravi Teja";
-        s2.Age = 22;
-        s2.DateOfBirth = "05-05-2002";
-
-        s2.Run();
-        s2.Drink();
-    }
-}
->>>>>>> Main.java
