@@ -3,8 +3,8 @@ public class ObjEmp {
 
         BrahmiEmploye[] e1 = getBrahmiEmploye();
         for (int i = 0; i < e1.length; i++) {
-            System.out.println(e1[i].fullNames);
-            System.out.println(e1[i].age);
+            System.out.println(e1[0].fullNames);
+            System.out.println(e1[0].age);
         }
     }
 
