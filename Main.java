@@ -1,20 +1,32 @@
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args){
+            int i= 0;
+            for(i=0; i<5;i++){
+                System.out.println("Wassup");
+            }
+        int n = 10;
+            int firstNumber =0;
+            int secondNumber=1;
+            int nextNumber;
+            for(i=1;i<n;i++){
+                System.out.println(firstNumber);
+                nextNumber = firstNumber +secondNumber;
+                firstNumber= secondNumber;
+                secondNumber= nextNumber;
 
-        Student s1 = new Student();
-        s1.FullName = "Sanjay Kumar";
-        s1.Age = 25;
-        s1.DateOfBirth = "01-01-2000";
+            }
 
-        s1.Run();
-        s1.Drink();
+            int k=0;
+            int l=1;
+            int m;
+            while(k<10){
+                System.out.println(k);
+                m=k+l;
+                k= l;
+                l= m;
+            }
 
-        Student s2 = new Student();
-        s2.FullName = "Ravi Teja";
-        s2.Age = 22;
-        s2.DateOfBirth = "05-05-2002";
-
-        s2.Run();
-        s2.Drink();
+        }
     }
-}
+
+
