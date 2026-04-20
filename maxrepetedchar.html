@@ -1,0 +1,22 @@
+<script>
+    let string ="hello world";
+    let maxch ="";
+    let maxct=0;
+    let st2;
+    for (let st1 of string){
+        if(st1 !=" "){
+            let count =0;
+            for (let st2 of string){
+                if(st1==st2){
+                  count++  
+                }
+            }
+            if (count>maxct){
+                maxct=count;
+                maxch=st1;
+            }
+
+        }
+    }
+    console.log(maxch);
+</script>
