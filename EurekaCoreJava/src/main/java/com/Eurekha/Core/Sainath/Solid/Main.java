@@ -5,5 +5,6 @@ public class Main {
         Creditcard creditcard = new Creditcard();
         ShoppingMall shoppingMall = new ShoppingMall(creditcard);
         shoppingMall.buyItem();
+
     }
 }
